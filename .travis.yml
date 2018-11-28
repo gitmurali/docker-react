@@ -8,5 +8,4 @@ before_install:
 script:
   - docker run gomurali/docker-react npm run test -- --coverage
 
-deploy:
-  provider: elasticbeanstalk
+
